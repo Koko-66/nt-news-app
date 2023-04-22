@@ -17,9 +17,10 @@
     <title>Document</title>
   </head>
   <body>
+    {% block navbar %}
     <!-- Nav bar -->
-    <nav></nav>
-    <main class="h1 text-center">
+    {% endblock %}
+    <main>
       <!-- Main Content-->
       <div class="container px-4 px-lg-5">
         {% block content %} {% endblock %}
